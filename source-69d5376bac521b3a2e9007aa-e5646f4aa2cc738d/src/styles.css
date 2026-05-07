@@ -1,0 +1,24 @@
+@import "tailwindcss" source("../");
+
+@theme {
+  --color-berklee-red: #CC0000;
+  --color-berklee-red-dark: #AA0000;
+  --font-sans: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0a0a0a;
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input, textarea, select, button {
+  font-family: inherit;
+}
